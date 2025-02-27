@@ -4,7 +4,7 @@ Este projeto é uma aplicação de Programação Orientada a Objetos (POO) que s
 
 🧩 Definição das Classes e Seus Métodos
 
-  No arquivo jogador.py é feito a Superclasse Jogador que representa um jogador genérico, com atributos como nome e nome da camisa
+  No arquivo jogador.py é feito a Superclasse Jogador que representa um jogador genérico, com atributos como nome e número da camisa.
 
 Funcionamento:
 
