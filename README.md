@@ -73,13 +73,67 @@ o método desempenho_geral tem como sua função mostrar o desenpenho geral do t
 
 "goleiro = Goleiro("Hugo Solza", 1, 12)". Sobre essa linha, o goleiro é uma instância da classe Goleiro, representando o goleiro do time. Atributos: (nome: "Hugo Solza", numero_camisa: 1, defesas: 12)
 
+"atacante = Atacante("Menphis Depay", 10, 7)". Sobre essa linha, o atacante é uma instância da classe Atacante, representando o atacante do time. Atributos: (nome: "Menphis Depay", numero_camisa: 10, gols: 7 (assumindo que a classe Atacante tem um atributo gols)).
 
-"atacante = Atacante("Menphis Depay", 10, 7)". Sobre essa linha, o atacante é uma instância da classe Atacante, representando o atacante do time. Atributos: (nome: "Menphis Depay", numero_camisa: 10, gols: 7 (assumindo que a classe Atacante tem um atributo gols))
+"fixo = Fixo("André Ramalho", 5, 6)". Sobre essa linha, fixo é uma instância da classe Fixo, representando o jogador fixo (defensor) do time. Atributos: (nome: "André Ramalho", numero_camisa: 5, interceptacoes: 6 (assumindo que a classe Fixo tem um atributo interceptacoes)).
+
+"ala_esquerdo = AlaEsquerdo("André Carrilho", 19, 3)". Sobre essa linha, o ala_esquerdo é uma instância da classe AlaEsquerdo, representando o ala esquerdo do time. Atributos: (nome: "André Carrilho", numero_camisa: 19, assistencias: 3 (assumindo que a classe AlaEsquerdo tem um atributo assistencias)).
+
+"ala_direito = AlaDireito("Rodrigo Garro", 8, 5)". Sobre essa linha, o ala_direito é uma instância da classe AlaDireito, representando o ala direito do time. Atributos: (nome: "Rodrigo Garro", numero_camisa: 8, essistencias: 5 (assumindo que a classe AlaDireito tem um atributo assistencias).
+
+O método desempenho_geral() do objeto meu_time exibe o desempenho geral do time com base nos atributos dos jogadores (como defesas, gols, assistencias, etc.).
+
+# Saida de dados
+
+Hugo Solza foi adicionado ao time Corinthians.
+
+Menphis Depay foi adicionado ao time Corinthians.
+
+André Ramalho foi adicionado ao time Corinthians.
+
+André Carrilho foi adicionado ao time Corinthians.
+
+Rodrigo Garro foi adicionado ao time Corinthians.
 
 
 
 
+Jogadores do time Corinthians:
+
+Hugo Solza (Camisa 1)
+
+Menphis Depay (Camisa 10)
+
+André Ramalho (Camisa 5)
+
+André Carrilho (Camisa 19)
+
+Rodrigo Garro (Camisa 8)
 
 
 
+O time Corinthians está em campo!
 
+Hugo Solza está defendendo o gol!
+
+Menphis Depay está atacando e buscando gols!
+
+André Ramalho está defendendo e organizando a equipe!
+
+André Carrilho está correndo pela lateral esquerda e apoiando o ataque!
+
+Rodrigo Garro está correndo pela lateral direita e criando jogadas!
+
+
+
+Desempenho do time Corinthians no ultimo jogo:
+
+Hugo Solza: Hugo Solza defendeu o gol 12 vezes em uma partida
+
+Menphis Depay: Menphis Depay fez 7 gols em uma partida
+
+André Ramalho: André Ramalho interceptou 6 vezes em uma partida
+
+André Carrilho: André Carrilho fez 3 cruzamentos em uma partida
+
+Rodrigo Garro: Rodrigo Garro fez 5 assistências em uma partida
