@@ -36,6 +36,8 @@ o método marcar_gol é especifico do atacante, que retornará quantos gols o at
 
   No arquivo fixo.py é feito a subclasse Fixo que herda da classe Jogador, com atributos como, nome, nome_camisa e interceptações.
 
+Funcionamento:
+
 o metodo init chama diretamente o atributo interceptações que significa que só pode ser chamada dentro da classe fixo.
 
 nessa classe o método jogar tem uma inplementação especifica para o fixo que retorna uma string: o fixo está defendendo e organizando a equipe.
@@ -43,6 +45,8 @@ nessa classe o método jogar tem uma inplementação especifica para o fixo que 
 o método interceptar_bola é especifico do fixo, que retornará qunatas interceptações o fixo fez em uma partida.
 
   No arquivo alas.py é feito a classe AlaEireito e a classe AlaDsquerdo onde ambas herdarão a classe Jogador, seus atributos são nome, numero_camisa, cruzamentos e assistencias
+
+Funcionamento:
 
 Na classe AlaEsquerdo o método init chama diretamente o atributo cruzamento o que significa que só poderá ser chamado pela classe AlaEsquerdo.
 
@@ -58,6 +62,8 @@ o método dar_assistencia é especifico do ala direito, que retornará quantas a
 
   No arquivo time_futebol.py é feito a classe TimeFutebol que será importado as classes Goleiro, Atacante, Fixo, AlaDireito e AlaEsquerdo.
 
+Funcionamento:
+
 nessa classe o método init terá o atributo nome do time e tambem uma lista de jogadores.
 
 o método adicionar_jogador tem como sua função adicionar jogadores ao time.
@@ -69,6 +75,7 @@ o método jogar_partida tem como sua função simular uma partida onde o polimor
 o método desempenho_geral tem como sua função mostrar o desenpenho geral do time em sua ultima partida, esse método é composto por um laço for jogador in self._jogadores e dentro desse laço, haverá um if insistance que imprimirá os daods do joagador em um jogo.
 
 * construção dos objetos
+
   No arquivo main.py é importado todas as subclasses, com o intuito de criar os objetos e imprimir o resultado esperado.
 
 "goleiro = Goleiro("Hugo Solza", 1, 12)". Sobre essa linha, o goleiro é uma instância da classe Goleiro, representando o goleiro do time. Atributos: (nome: "Hugo Solza", numero_camisa: 1, defesas: 12)
