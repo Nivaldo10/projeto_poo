@@ -1,5 +1,7 @@
 # projeto poo UFC - JOGADOR DE FUTSAL
 
+Este projeto é uma aplicação de Programação Orientada a Objetos (POO) que simula um time de futsal, com jogadores em diferentes posições e suas respectivas funcionalidades. O objetivo é demonstrar conceitos como herança, encapsulamento, polimorfismo e abstração através de um sistema que gerencia jogadores e suas ações durante uma partida.
+
 * definição das classes e seus métodos(definição) 
 
   No arquivo jogador.py é feito a Superclasse Jogador que representa um jogador genérico, com atributos como nome e nome da camisa
@@ -145,3 +147,7 @@ André Ramalho: André Ramalho interceptou 6 vezes em uma partida
 André Carrilho: André Carrilho fez 3 cruzamentos em uma partida
 
 Rodrigo Garro: Rodrigo Garro fez 5 assistências em uma partida
+
+* Conclusão
+
+Este projeto é uma aplicação prática dos conceitos de POO, demonstrando como classes e objetos podem ser usados para modelar um sistema real (um time de futsal). Através de herança, encapsulamento, polimorfismo e abstração, o código se torna modular, reutilizável e de fácil manutenção.
