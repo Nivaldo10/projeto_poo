@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação de Programação Orientada a Objetos (POO) que simula um time de futsal, com jogadores em diferentes posições e suas respectivas funcionalidades. O objetivo é demonstrar conceitos como herança, encapsulamento, polimorfismo e abstração através de um sistema que gerencia jogadores e suas ações durante uma partida.
 
-* definição das classes e seus métodos(definição) 
+🧩 Definição das Classes e Seus Métodos
 
   No arquivo jogador.py é feito a Superclasse Jogador que representa um jogador genérico, com atributos como nome e nome da camisa
 
@@ -77,7 +77,7 @@ o método jogar_partida tem como sua função simular uma partida onde o polimor
 
 o método desempenho_geral tem como sua função mostrar o desenpenho geral do time em sua ultima partida, esse método é composto por um laço for jogador in self._jogadores e dentro desse laço, haverá um if insistance que imprimirá os daods do joagador em um jogo.
 
-* construção dos objetos
+🧩 construção dos objetos
 
   No arquivo main.py é importado todas as subclasses, com o intuito de criar os objetos e imprimir o resultado esperado.
 
@@ -148,6 +148,6 @@ André Carrilho: André Carrilho fez 3 cruzamentos em uma partida
 
 Rodrigo Garro: Rodrigo Garro fez 5 assistências em uma partida
 
-* Conclusão
+🧩 Conclusão
 
 Este projeto é uma aplicação prática dos conceitos de POO, demonstrando como classes e objetos podem ser usados para modelar um sistema real (um time de futsal). Através de herança, encapsulamento, polimorfismo e abstração, o código se torna modular, reutilizável e de fácil manutenção.
