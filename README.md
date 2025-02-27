@@ -69,6 +69,14 @@ o método jogar_partida tem como sua função simular uma partida onde o polimor
 o método desempenho_geral tem como sua função mostrar o desenpenho geral do time em sua ultima partida, esse método é composto por um laço for jogador in self._jogadores e dentro desse laço, haverá um if insistance que imprimirá os daods do joagador em um jogo.
 
 * construção dos objetos
+  No arquivo main.py é importado todas as subclasses, com o intuito de criar os objetos e imprimir o resultado esperado.
+
+"goleiro = Goleiro("Hugo Solza", 1, 12)". Sobre essa linha, o goleiro é uma instância da classe Goleiro, representando o goleiro do time. Atributos: (nome: "Hugo Solza", numero_camisa: 1, defesas: 12)
+
+
+"atacante = Atacante("Menphis Depay", 10, 7)". Sobre essa linha, o atacante é uma instância da classe Atacante, representando o atacante do time. Atributos: (nome: "Menphis Depay", numero_camisa: 10, gols: 7 (assumindo que a classe Atacante tem um atributo gols))
+
+
 
 
 
