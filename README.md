@@ -1,4 +1,4 @@
-# projeto poo UFC - JOGADOR DE FUTSAL
+🏆 Projeto POO UFC - JOGADOR DE FUTSAL ⚽
 
 Este projeto é uma aplicação de Programação Orientada a Objetos (POO) que simula um time de futsal, com jogadores em diferentes posições e suas respectivas funcionalidades. O objetivo é demonstrar conceitos como herança, encapsulamento, polimorfismo e abstração através de um sistema que gerencia jogadores e suas ações durante uma partida.
 
