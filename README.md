@@ -14,6 +14,7 @@ o método jogar um método abstrato (polimorfismo), que quando execultado gerar�
 
 O método str define como o objeto será exibido quando convertido para string.
 
+  
   No arquivo goleiro.py é feito a subclasse goleiro que herda da classe Jogador, e possui atributos como nome, numero_camisa e defesas.
 
 Funcionamento:
